@@ -1,6 +1,15 @@
 # Trabalho Prático Final
 ## Autores: Sandyara Peres e Bruno Fernandes
-Trabalho realizado para a disciplina de Sistemas Web 2 (ASP.NET MVC), ministrada por Wellington Tuller Moraes no Instituto Federal de São Paulo, campus Cubatão.  
+Trabalho realizado para a disciplina de Sistemas Web 2 (ASP.NET MVC), ministrada por Wellington Tuller Moraes no Instituto Federal de São Paulo, campus Cubatão.
+
+### Objetivo
+Desenvolver uma aplicação com API, Web Site e aplicação Desktop
+
+### Contém
+- [x] Banco que dados capaz de armazenar informações de Usuário / Produto
+- [x] API contem todos os métodos CRUD para o Usuário e Produto
+- [x] A gestão de usuários efetuada através de uma aplicação Desktop
+- [x] Operações de produto devem ser executadas através de WebSite
 
 ### Captura de tela da aplicação
 #### Desktop
@@ -19,13 +28,15 @@ Trabalho realizado para a disciplina de Sistemas Web 2 (ASP.NET MVC), ministrada
 - Microsoft.AspNet.WebApi.Client
 - Newstonsoft.Json
 
+**Web**
+- Newstonsoft.Json
+
 # Pré-requisitos e como rodar a aplicação
 
 Requisitos:
 
-Visual Studio 2019 qualquer versão.
+Visual Studio 2019.
 
-Como rodar:
+Setup:
 
-Crie o Banco com o "Update-Database" no Console do Gerenciador de Pacotes
-Agora compile o projeto.
+Crie o Banco com o comando "Update-Database" no Console do Gerenciador de Pacotes
